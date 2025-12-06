@@ -10,23 +10,23 @@ superior-trade-v1.1.0: Pulling from trmaphi/freqtrade
 253e0fffd007: Pulling fs layer
 13d75f890eba: Pulling fs layer
 c1edad166c1c: Pulling fs layer
-78caa7cc1d84: Waiting
 4ce903582132: Waiting
+78caa7cc1d84: Waiting
 253e0fffd007: Waiting
 13d75f890eba: Waiting
-c1edad166c1c: Waiting
 758566b45349: Waiting
+c1edad166c1c: Waiting
 4f4fb700ef54: Waiting
 79dc17963468: Verifying Checksum
 79dc17963468: Download complete
-4ce903582132: Verifying Checksum
-4ce903582132: Download complete
 5c36186b8d84: Verifying Checksum
 5c36186b8d84: Download complete
-4f4fb700ef54: Verifying Checksum
-4f4fb700ef54: Download complete
 5c32499ab806: Verifying Checksum
 5c32499ab806: Download complete
+4ce903582132: Verifying Checksum
+4ce903582132: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
 758566b45349: Verifying Checksum
 758566b45349: Download complete
 78caa7cc1d84: Verifying Checksum
@@ -49,48 +49,48 @@ c1edad166c1c: Download complete
 c1edad166c1c: Pull complete
 Digest: sha256:f49ae4774917463f3bb5fb4ad323295adf2d9aa256db829244bf6387247ca38d
 Status: Downloaded newer image for trmaphi/freqtrade:superior-trade-v1.1.0
-2025-12-06 06:12:33,683 - freqtrade - INFO - freqtrade 2025.8
-2025-12-06 06:12:34,111 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
-2025-12-06 06:12:37,729 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/user_data/config.json ...
-2025-12-06 06:12:37,731 - freqtrade.loggers - INFO - Enabling colorized output.
-2025-12-06 06:12:37,731 - freqtrade.loggers - INFO - Logfile configured
-2025-12-06 06:12:37,732 - freqtrade.loggers - INFO - Verbosity set to 0
-2025-12-06 06:12:37,732 - freqtrade.configuration.configuration - INFO - Using exchange hyperliquid
-2025-12-06 06:12:37,790 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
-2025-12-06 06:12:37,791 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/hyperliquid ...
-2025-12-06 06:12:37,791 - freqtrade.configuration.configuration - INFO - Using pairs ['.*']
-2025-12-06 06:12:37,792 - freqtrade.configuration.configuration - INFO - timeframes --timeframes: ['1m', '3m', '5m', '15m', '30m', '1h', '2h', '4h', '8h', '12h', '1d', '3d', '1w', '1M']
-2025-12-06 06:12:37,792 - freqtrade.configuration.configuration - INFO - Detected --new-pairs-days: 18
-2025-12-06 06:12:37,793 - freqtrade.configuration.configuration - INFO - Detected --trading-mode: spot
-2025-12-06 06:12:37,794 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
-2025-12-06 06:12:37,799 - freqtrade.exchange.check_exchange - INFO - Exchange "hyperliquid" is officially supported by the Freqtrade development team.
-2025-12-06 06:12:37,799 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
-2025-12-06 06:12:37,903 - freqtrade.exchange.exchange - INFO - Overriding exchange._ft_has with config params, result: {'stoploss_on_exchange': False, 'stop_price_param': 'stopLossPrice', 
+2025-12-06 09:09:04,205 - freqtrade - INFO - freqtrade 2025.8
+2025-12-06 09:09:04,636 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2025-12-06 09:09:08,307 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/user_data/config.json ...
+2025-12-06 09:09:08,310 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-12-06 09:09:08,310 - freqtrade.loggers - INFO - Logfile configured
+2025-12-06 09:09:08,310 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-12-06 09:09:08,311 - freqtrade.configuration.configuration - INFO - Using exchange hyperliquid
+2025-12-06 09:09:08,369 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-12-06 09:09:08,369 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/hyperliquid ...
+2025-12-06 09:09:08,370 - freqtrade.configuration.configuration - INFO - Using pairs ['.*']
+2025-12-06 09:09:08,370 - freqtrade.configuration.configuration - INFO - timeframes --timeframes: ['1m', '3m', '5m', '15m', '30m', '1h', '2h', '4h', '8h', '12h', '1d', '3d', '1w', '1M']
+2025-12-06 09:09:08,371 - freqtrade.configuration.configuration - INFO - Detected --new-pairs-days: 18
+2025-12-06 09:09:08,371 - freqtrade.configuration.configuration - INFO - Detected --trading-mode: spot
+2025-12-06 09:09:08,372 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-12-06 09:09:08,378 - freqtrade.exchange.check_exchange - INFO - Exchange "hyperliquid" is officially supported by the Freqtrade development team.
+2025-12-06 09:09:08,378 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-12-06 09:09:08,481 - freqtrade.exchange.exchange - INFO - Overriding exchange._ft_has with config params, result: {'stoploss_on_exchange': False, 'stop_price_param': 'stopLossPrice', 
 'stop_price_prop': 'stopLossPrice', 'stoploss_order_types': {}, 'stoploss_blocks_assets': True, 'order_time_in_force': ['GTC'], 'ohlcv_params': {}, 'ohlcv_has_history': True, 'ohlcv_partial_candle': 
 True, 'ohlcv_require_since': False, 'always_require_api_keys': False, 'ohlcv_volume_currency': 'base', 'tickers_have_quoteVolume': True, 'tickers_have_percentage': True, 'tickers_have_bid_ask': False,
 'tickers_have_price': True, 'trades_limit': 1000, 'trades_pagination': 'time', 'trades_pagination_arg': 'since', 'trades_has_history': False, 'l2_limit_range': [20], 'l2_limit_range_required': True, 
 'l2_limit_upper': None, 'mark_ohlcv_price': 'mark', 'mark_ohlcv_timeframe': '8h', 'funding_fee_timeframe': '8h', 'ccxt_futures_name': 'swap', 'needs_trading_fees': False, 'order_props_in_contracts': 
 ['amount', 'filled', 'remaining'], 'fetch_orders_limit_minutes': None, 'marketOrderRequiresPrice': True, 'exchange_has_overrides': {'fetchTrades': False}, 'proxy_coin_mapping': {}, 'ws_enabled': True}
-2025-12-06 06:12:37,904 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
-2025-12-06 06:12:37,905 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.21
-2025-12-06 06:12:37,905 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}, 'enableRateLimit': True}
-2025-12-06 06:12:37,910 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}, 'enableRateLimit': True}
-2025-12-06 06:12:37,915 - freqtrade.exchange.exchange - INFO - Using Exchange "Hyperliquid"
-2025-12-06 06:12:37,916 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Hyperliquid'...
-2025-12-06 06:12:37,916 - freqtrade.exchange.exchange - INFO - Markets were not loaded. Loading them now..
-2025-12-06 06:12:41,509 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ArgumentsRequired. Message: hyperliquid fetchHip3Markets() Too
+2025-12-06 09:09:08,482 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2025-12-06 09:09:08,482 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.21
+2025-12-06 09:09:08,483 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}, 'enableRateLimit': True}
+2025-12-06 09:09:08,487 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}, 'enableRateLimit': True}
+2025-12-06 09:09:08,493 - freqtrade.exchange.exchange - INFO - Using Exchange "Hyperliquid"
+2025-12-06 09:09:08,493 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Hyperliquid'...
+2025-12-06 09:09:08,493 - freqtrade.exchange.exchange - INFO - Markets were not loaded. Loading them now..
+2025-12-06 09:09:11,913 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ArgumentsRequired. Message: hyperliquid fetchHip3Markets() Too
 many DEXes found. Please specify a list of DEXes in the exchange.options["fetchMarkets"]["hip3"]["dex"] parameter to fetch markets from those DEXes only. The limit is set to 5 DEXes by default.". 
 Retrying still for 3 times.
-2025-12-06 06:12:46,086 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ArgumentsRequired. Message: hyperliquid fetchHip3Markets() Too
+2025-12-06 09:09:16,628 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ArgumentsRequired. Message: hyperliquid fetchHip3Markets() Too
 many DEXes found. Please specify a list of DEXes in the exchange.options["fetchMarkets"]["hip3"]["dex"] parameter to fetch markets from those DEXes only. The limit is set to 5 DEXes by default.". 
 Retrying still for 2 times.
-2025-12-06 06:12:50,576 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ArgumentsRequired. Message: hyperliquid fetchHip3Markets() Too
+2025-12-06 09:09:20,984 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ArgumentsRequired. Message: hyperliquid fetchHip3Markets() Too
 many DEXes found. Please specify a list of DEXes in the exchange.options["fetchMarkets"]["hip3"]["dex"] parameter to fetch markets from those DEXes only. The limit is set to 5 DEXes by default.". 
 Retrying still for 1 times.
-2025-12-06 06:12:55,059 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ArgumentsRequired. Message: hyperliquid fetchHip3Markets() Too
+2025-12-06 09:09:25,584 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ArgumentsRequired. Message: hyperliquid fetchHip3Markets() Too
 many DEXes found. Please specify a list of DEXes in the exchange.options["fetchMarkets"]["hip3"]["dex"] parameter to fetch markets from those DEXes only. The limit is set to 5 DEXes by default.". 
 Giving up.
-2025-12-06 06:12:55,060 - freqtrade.exchange.exchange - ERROR - Could not load markets.
+2025-12-06 09:09:25,585 - freqtrade.exchange.exchange - ERROR - Could not load markets.
 Traceback (most recent call last):
   File "/freqtrade/freqtrade/exchange/exchange.py", line 651, in _api_reload_markets
     await self._api_async.load_markets(reload=reload, params={})
@@ -255,4 +255,4 @@ Traceback (most recent call last):
     ) from e
 freqtrade.exceptions.TemporaryError: Error in reload_markets due to ArgumentsRequired. Message: hyperliquid fetchHip3Markets() Too many DEXes found. Please specify a list of DEXes in the 
 exchange.options["fetchMarkets"]["hip3"]["dex"] parameter to fetch markets from those DEXes only. The limit is set to 5 DEXes by default.
-2025-12-06 06:12:55,072 - freqtrade - ERROR - Markets were not loaded.
+2025-12-06 09:09:25,597 - freqtrade - ERROR - Markets were not loaded.
