@@ -1,0 +1,13 @@
+{
+    "exchange": {
+        "ccxt_config": {
+            "enableRateLimit": true
+        },
+        "ccxt_async_config": {
+            "enableRateLimit": true
+        },
+        "_ft_has_params": {
+            "ohlcv_has_history": true
+        }
+    }
+}
