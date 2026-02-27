@@ -15,18 +15,15 @@ c6a39559b365: Waiting
 4f4fb700ef54: Waiting
 d45518277725: Waiting
 71de576a3368: Waiting
-e6f1f3b8ab3c: Waiting
 3960ed20ca00: Waiting
-8843ea38a07e: Verifying Checksum
+e6f1f3b8ab3c: Waiting
 8843ea38a07e: Download complete
 0bee50492702: Verifying Checksum
 0bee50492702: Download complete
-36b6de65fd8d: Verifying Checksum
-36b6de65fd8d: Download complete
 119d43eec815: Verifying Checksum
 119d43eec815: Download complete
+36b6de65fd8d: Download complete
 4f4fb700ef54: Download complete
-d45518277725: Verifying Checksum
 d45518277725: Download complete
 c6a39559b365: Verifying Checksum
 c6a39559b365: Download complete
@@ -34,9 +31,9 @@ e6f1f3b8ab3c: Verifying Checksum
 e6f1f3b8ab3c: Download complete
 3960ed20ca00: Verifying Checksum
 3960ed20ca00: Download complete
-119d43eec815: Pull complete
 71de576a3368: Verifying Checksum
 71de576a3368: Download complete
+119d43eec815: Pull complete
 8843ea38a07e: Pull complete
 0bee50492702: Pull complete
 36b6de65fd8d: Pull complete
@@ -48,49 +45,49 @@ d45518277725: Pull complete
 e6f1f3b8ab3c: Pull complete
 Digest: sha256:320a43dcea1229878163af6008c4118d2f062ca13db6aa3d4a5f51bbcbedf298
 Status: Downloaded newer image for freqtradeorg/freqtrade:stable
-2026-02-27 06:28:54,038 - freqtrade - INFO - freqtrade 2026.1
-2026-02-27 06:28:54,403 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
-2026-02-27 06:28:55,367 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/user_data/config.json ...
-2026-02-27 06:28:55,368 - freqtrade.configuration.environment_vars - INFO - Loading variable 'FREQTRADE__EXCHANGE__CCXT_ASYNC_CONFIG__httpProxy'
-2026-02-27 06:28:55,368 - freqtrade.configuration.environment_vars - INFO - Key parts: ['EXCHANGE', 'CCXT_ASYNC_CONFIG', 'httpProxy']
-2026-02-27 06:28:55,370 - freqtrade.loggers - INFO - Enabling colorized output.
-2026-02-27 06:28:55,370 - freqtrade.loggers - INFO - Logfile configured
-2026-02-27 06:28:55,371 - freqtrade.loggers - INFO - Verbosity set to 0
-2026-02-27 06:28:55,371 - freqtrade.configuration.configuration - INFO - Using exchange hyperliquid
-2026-02-27 06:28:55,454 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
-2026-02-27 06:28:55,454 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/hyperliquid ...
-2026-02-27 06:28:55,455 - freqtrade.configuration.configuration - INFO - Using pairs ['.*']
-2026-02-27 06:28:55,455 - freqtrade.configuration.configuration - INFO - Prepend detected. Allowing data prepending.
-2026-02-27 06:28:55,456 - freqtrade.configuration.configuration - INFO - timeframes --timeframes: ['1m', '3m', '5m', '15m', '30m', '1h', '2h', '4h', '8h', '12h', '1d', '3d', '1w', '1M']
-2026-02-27 06:28:55,456 - freqtrade.configuration.configuration - INFO - Detected --new-pairs-days: 18
-2026-02-27 06:28:55,456 - freqtrade.configuration.configuration - INFO - Detected --trading-mode: spot
-2026-02-27 06:28:55,458 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
-2026-02-27 06:28:55,463 - freqtrade.exchange.check_exchange - INFO - Exchange "hyperliquid" is officially supported by the Freqtrade development team.
-2026-02-27 06:28:55,463 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
-2026-02-27 06:28:55,768 - freqtrade.exchange.exchange - INFO - Overriding exchange._ft_has with config params, result: {'stoploss_on_exchange': False, 'stop_price_param': 'stopLossPrice', 
+2026-02-27 09:22:31,326 - freqtrade - INFO - freqtrade 2026.1
+2026-02-27 09:22:31,696 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-02-27 09:22:32,677 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/user_data/config.json ...
+2026-02-27 09:22:32,677 - freqtrade.configuration.environment_vars - INFO - Loading variable 'FREQTRADE__EXCHANGE__CCXT_ASYNC_CONFIG__httpProxy'
+2026-02-27 09:22:32,678 - freqtrade.configuration.environment_vars - INFO - Key parts: ['EXCHANGE', 'CCXT_ASYNC_CONFIG', 'httpProxy']
+2026-02-27 09:22:32,680 - freqtrade.loggers - INFO - Enabling colorized output.
+2026-02-27 09:22:32,680 - freqtrade.loggers - INFO - Logfile configured
+2026-02-27 09:22:32,680 - freqtrade.loggers - INFO - Verbosity set to 0
+2026-02-27 09:22:32,681 - freqtrade.configuration.configuration - INFO - Using exchange hyperliquid
+2026-02-27 09:22:32,765 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2026-02-27 09:22:32,765 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/hyperliquid ...
+2026-02-27 09:22:32,766 - freqtrade.configuration.configuration - INFO - Using pairs ['.*']
+2026-02-27 09:22:32,766 - freqtrade.configuration.configuration - INFO - Prepend detected. Allowing data prepending.
+2026-02-27 09:22:32,767 - freqtrade.configuration.configuration - INFO - timeframes --timeframes: ['1m', '3m', '5m', '15m', '30m', '1h', '2h', '4h', '8h', '12h', '1d', '3d', '1w', '1M']
+2026-02-27 09:22:32,767 - freqtrade.configuration.configuration - INFO - Detected --new-pairs-days: 18
+2026-02-27 09:22:32,768 - freqtrade.configuration.configuration - INFO - Detected --trading-mode: spot
+2026-02-27 09:22:32,769 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2026-02-27 09:22:32,774 - freqtrade.exchange.check_exchange - INFO - Exchange "hyperliquid" is officially supported by the Freqtrade development team.
+2026-02-27 09:22:32,774 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-02-27 09:22:33,091 - freqtrade.exchange.exchange - INFO - Overriding exchange._ft_has with config params, result: {'stoploss_on_exchange': False, 'stop_price_param': 'stopLossPrice', 
 'stop_price_prop': 'stopLossPrice', 'stoploss_order_types': {}, 'stoploss_blocks_assets': True, 'stoploss_query_requires_stop_flag': False, 'order_time_in_force': ['GTC'], 'ohlcv_params': {}, 
 'ohlcv_has_history': True, 'ohlcv_partial_candle': True, 'ohlcv_require_since': False, 'download_data_parallel_quick': False, 'always_require_api_keys': False, 'ohlcv_volume_currency': 'base', 
 'tickers_have_quoteVolume': True, 'tickers_have_percentage': True, 'tickers_have_bid_ask': False, 'tickers_have_price': True, 'trades_limit': 1000, 'trades_pagination': 'time', 
 'trades_pagination_arg': 'since', 'trades_has_history': False, 'l2_limit_range': [20], 'l2_limit_range_required': True, 'l2_limit_upper': None, 'mark_ohlcv_price': 'mark', 'mark_ohlcv_timeframe': 
 '1h', 'funding_fee_timeframe': '1h', 'ccxt_futures_name': 'swap', 'needs_trading_fees': False, 'order_props_in_contracts': ['amount', 'filled', 'remaining'], 'fetch_orders_limit_minutes': None, 
 'marketOrderRequiresPrice': True, 'exchange_has_overrides': {'fetchTrades': False}, 'proxy_coin_mapping': {}, 'ws_enabled': True, 'has_delisting': False}
-2026-02-27 06:28:55,769 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
-2026-02-27 06:28:55,769 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.34
-2026-02-27 06:28:55,770 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}, 'enableRateLimit': True}
-2026-02-27 06:28:55,774 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}, 'enableRateLimit': True, 'httpProxy': 
+2026-02-27 09:22:33,092 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2026-02-27 09:22:33,093 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.34
+2026-02-27 09:22:33,093 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}, 'enableRateLimit': True}
+2026-02-27 09:22:33,098 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}, 'enableRateLimit': True, 'httpProxy': 
 'http://henrykip:Kipleyai2025!@sg.proxymesh.com:31280'}
-2026-02-27 06:28:55,780 - freqtrade.exchange.exchange - INFO - Using Exchange "Hyperliquid"
-2026-02-27 06:28:55,780 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Hyperliquid'...
-2026-02-27 06:28:55,780 - freqtrade.exchange.exchange - INFO - Markets were not loaded. Loading them now..
-2026-02-27 06:29:05,820 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RequestTimeout. Message: hyperliquid POST 
+2026-02-27 09:22:33,103 - freqtrade.exchange.exchange - INFO - Using Exchange "Hyperliquid"
+2026-02-27 09:22:33,103 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Hyperliquid'...
+2026-02-27 09:22:33,104 - freqtrade.exchange.exchange - INFO - Markets were not loaded. Loading them now..
+2026-02-27 09:22:44,092 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RequestTimeout. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info". Retrying still for 3 times.
-2026-02-27 06:29:17,816 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RequestTimeout. Message: hyperliquid POST 
+2026-02-27 09:22:56,085 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RequestTimeout. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info". Retrying still for 2 times.
-2026-02-27 06:29:29,821 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RequestTimeout. Message: hyperliquid POST 
+2026-02-27 09:23:08,092 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RequestTimeout. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info". Retrying still for 1 times.
-2026-02-27 06:29:41,820 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RequestTimeout. Message: hyperliquid POST 
+2026-02-27 09:23:20,093 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RequestTimeout. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info". Giving up.
-2026-02-27 06:29:41,820 - freqtrade.exchange.exchange - ERROR - Could not load markets.
+2026-02-27 09:23:20,094 - freqtrade.exchange.exchange - ERROR - Could not load markets.
 Traceback (most recent call last):
   File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 779, in _request
     resp = await handler(req)
@@ -108,36 +105,14 @@ Traceback (most recent call last):
   File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1237, in _create_connection
     _, proto = await self._create_proxy_connection(req, traces, timeout)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1621, in _create_proxy_connection
-    transport, proto = await self._create_direct_connection(
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-        proxy_req, [], timeout, client_error=ClientProxyConnectionError
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1580, in _create_direct_connection
-    transp, proto = await self._wrap_create_connection(
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<7 lines>...
-    )
-    ^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1298, in _wrap_create_connection
-    sock = await aiohappyeyeballs.start_connection(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<6 lines>...
-    )
-    ^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
-    sock = await _connect_sock(
-           ^^^^^^^^^^^^^^^^^^^^
-    ...<6 lines>...
-    )
-    ^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
-    await loop.sock_connect(sock, address)
-  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
-    return await fut
-           ^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1656, in _create_proxy_connection
+    resp = await proxy_resp.start(conn)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_reqrep.py", line 539, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/streams.py", line 703, in read
+    await self._waiter
 asyncio.exceptions.CancelledError
 
 The above exception was the direct cause of the following exception:
@@ -443,14 +418,36 @@ Traceback (most recent call last):
   File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1237, in _create_connection
     _, proto = await self._create_proxy_connection(req, traces, timeout)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1656, in _create_proxy_connection
-    resp = await proxy_resp.start(conn)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_reqrep.py", line 539, in start
-    message, payload = await protocol.read()  # type: ignore[union-attr]
-                       ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/streams.py", line 703, in read
-    await self._waiter
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1621, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        proxy_req, [], timeout, client_error=ClientProxyConnectionError
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1580, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1298, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
+    return await fut
+           ^^^^^^^^^
 asyncio.exceptions.CancelledError
 
 The above exception was the direct cause of the following exception:
@@ -531,4 +528,4 @@ Traceback (most recent call last):
         f"Error in reload_markets due to {e.__class__.__name__}. Message: {e}"
     ) from e
 freqtrade.exceptions.TemporaryError: Error in reload_markets due to RequestTimeout. Message: hyperliquid POST https://api.hyperliquid.xyz/info
-2026-02-27 06:29:41,848 - freqtrade - ERROR - Markets were not loaded.
+2026-02-27 09:23:20,121 - freqtrade - ERROR - Markets were not loaded.
