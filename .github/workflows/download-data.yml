@@ -100,5 +100,15 @@ jobs:
           git checkout --orphan temp_branch
           git add -A
           git commit -m "Squashed: keep only the current state"
-          git branch -M main
-          git push --force
+          git branch -M main'
+          
+          # Retry push up to 3 times with backoff
+          for i in 1 2 3; do
+            if git push --force; then
+              echo "Push successful"
+              break
+            else
+              echo "Push failed, attempt $i of 3. Retrying in $((i * 10)) seconds..."
+              sleep $((i * 10))
+            fi
+          done
