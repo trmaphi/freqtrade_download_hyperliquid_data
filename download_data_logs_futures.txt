@@ -1,22 +1,22 @@
-2026-03-12 12:26:46,097 - freqtrade - INFO - freqtrade 2026.2
-2026-03-12 12:26:46,487 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
-2026-03-12 12:26:47,452 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/user_data/config.json ...
-2026-03-12 12:26:47,453 - freqtrade.configuration.environment_vars - INFO - Loading variable 'FREQTRADE__EXCHANGE__CCXT_ASYNC_CONFIG__httpProxy'
-2026-03-12 12:26:47,453 - freqtrade.configuration.environment_vars - INFO - Key parts: ['EXCHANGE', 'CCXT_ASYNC_CONFIG', 'httpProxy']
-2026-03-12 12:26:47,455 - freqtrade.loggers - INFO - Enabling colorized output.
-2026-03-12 12:26:47,455 - freqtrade.loggers - INFO - Logfile configured
-2026-03-12 12:26:47,456 - freqtrade.loggers - INFO - Verbosity set to 0
-2026-03-12 12:26:47,456 - freqtrade.configuration.configuration - INFO - Using exchange hyperliquid
-2026-03-12 12:26:47,531 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
-2026-03-12 12:26:47,532 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/hyperliquid ...
-2026-03-12 12:26:47,532 - freqtrade.configuration.configuration - INFO - Using pairs ['.*']
-2026-03-12 12:26:47,533 - freqtrade.configuration.configuration - INFO - timeframes --timeframes: ['1m', '3m', '5m', '15m', '30m', '1h', '2h', '4h', '8h', '12h', '1d', '3d', '1w', '1M']
-2026-03-12 12:26:47,533 - freqtrade.configuration.configuration - INFO - Detected --new-pairs-days: 18
-2026-03-12 12:26:47,534 - freqtrade.configuration.configuration - INFO - Detected --trading-mode: futures
-2026-03-12 12:26:47,535 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
-2026-03-12 12:26:47,538 - freqtrade.exchange.check_exchange - INFO - Exchange "hyperliquid" is officially supported by the Freqtrade development team.
-2026-03-12 12:26:47,539 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
-2026-03-12 12:26:47,852 - freqtrade.exchange.exchange - INFO - Overriding exchange._ft_has with config params, result: {'stoploss_on_exchange': True, 'stop_price_param': 'stopLossPrice', 
+2026-03-12 21:25:40,210 - freqtrade - INFO - freqtrade 2026.2
+2026-03-12 21:25:40,593 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-03-12 21:25:41,592 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/user_data/config.json ...
+2026-03-12 21:25:41,593 - freqtrade.configuration.environment_vars - INFO - Loading variable 'FREQTRADE__EXCHANGE__CCXT_ASYNC_CONFIG__httpProxy'
+2026-03-12 21:25:41,593 - freqtrade.configuration.environment_vars - INFO - Key parts: ['EXCHANGE', 'CCXT_ASYNC_CONFIG', 'httpProxy']
+2026-03-12 21:25:41,595 - freqtrade.loggers - INFO - Enabling colorized output.
+2026-03-12 21:25:41,595 - freqtrade.loggers - INFO - Logfile configured
+2026-03-12 21:25:41,596 - freqtrade.loggers - INFO - Verbosity set to 0
+2026-03-12 21:25:41,596 - freqtrade.configuration.configuration - INFO - Using exchange hyperliquid
+2026-03-12 21:25:41,671 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2026-03-12 21:25:41,672 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/hyperliquid ...
+2026-03-12 21:25:41,672 - freqtrade.configuration.configuration - INFO - Using pairs ['.*']
+2026-03-12 21:25:41,673 - freqtrade.configuration.configuration - INFO - timeframes --timeframes: ['1m', '3m', '5m', '15m', '30m', '1h', '2h', '4h', '8h', '12h', '1d', '3d', '1w', '1M']
+2026-03-12 21:25:41,673 - freqtrade.configuration.configuration - INFO - Detected --new-pairs-days: 18
+2026-03-12 21:25:41,674 - freqtrade.configuration.configuration - INFO - Detected --trading-mode: futures
+2026-03-12 21:25:41,675 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2026-03-12 21:25:41,678 - freqtrade.exchange.check_exchange - INFO - Exchange "hyperliquid" is officially supported by the Freqtrade development team.
+2026-03-12 21:25:41,679 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-03-12 21:25:42,000 - freqtrade.exchange.exchange - INFO - Overriding exchange._ft_has with config params, result: {'stoploss_on_exchange': True, 'stop_price_param': 'stopLossPrice', 
 'stop_price_prop': 'stopPrice', 'stoploss_order_types': {'limit': 'limit'}, 'stoploss_blocks_assets': False, 'stoploss_query_requires_stop_flag': False, 'order_time_in_force': ['GTC'], 'ohlcv_params':
 {}, 'ohlcv_has_history': True, 'ohlcv_partial_candle': True, 'ohlcv_require_since': False, 'download_data_parallel_quick': False, 'always_require_api_keys': False, 'ohlcv_volume_currency': 'base', 
 'tickers_have_quoteVolume': True, 'tickers_have_percentage': True, 'tickers_have_bid_ask': False, 'tickers_have_price': True, 'trades_limit': 1000, 'trades_pagination': 'time', 
@@ -24,22 +24,22 @@
 '1h', 'funding_fee_timeframe': '1h', 'ccxt_futures_name': 'swap', 'needs_trading_fees': False, 'order_props_in_contracts': ['amount', 'filled', 'remaining'], 'fetch_orders_limit_minutes': None, 
 'marketOrderRequiresPrice': True, 'exchange_has_overrides': {'fetchTrades': False}, 'proxy_coin_mapping': {}, 'ws_enabled': True, 'has_delisting': False, 'funding_fee_candle_limit': 500, 
 'uses_leverage_tiers': False}
-2026-03-12 12:26:47,853 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
-2026-03-12 12:26:47,854 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.39
-2026-03-12 12:26:47,854 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'enableRateLimit': True}
-2026-03-12 12:26:47,858 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'enableRateLimit': True, 'httpProxy': ''}
-2026-03-12 12:26:47,861 - freqtrade.exchange.exchange - INFO - Using Exchange "Hyperliquid"
-2026-03-12 12:26:47,862 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Hyperliquid'...
-2026-03-12 12:26:47,862 - freqtrade.exchange.exchange - INFO - Markets were not loaded. Loading them now..
-2026-03-12 12:26:48,031 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
+2026-03-12 21:25:42,001 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2026-03-12 21:25:42,001 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.39
+2026-03-12 21:25:42,002 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'enableRateLimit': True}
+2026-03-12 21:25:42,006 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'enableRateLimit': True, 'httpProxy': ''}
+2026-03-12 21:25:42,010 - freqtrade.exchange.exchange - INFO - Using Exchange "Hyperliquid"
+2026-03-12 21:25:42,010 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Hyperliquid'...
+2026-03-12 21:25:42,010 - freqtrade.exchange.exchange - INFO - Markets were not loaded. Loading them now..
+2026-03-12 21:25:43,723 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info 429 Too Many Requests null". Retrying still for 3 times.
-2026-03-12 12:26:49,145 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
+2026-03-12 21:25:46,855 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info 429 Too Many Requests null". Retrying still for 2 times.
-2026-03-12 12:26:53,109 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
+2026-03-12 21:25:49,396 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info 429 Too Many Requests null". Retrying still for 1 times.
-2026-03-12 12:26:54,746 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
+2026-03-12 21:25:53,220 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info 429 Too Many Requests null". Giving up.
-2026-03-12 12:26:54,746 - freqtrade.exchange.exchange - ERROR - Could not load markets.
+2026-03-12 21:25:53,220 - freqtrade.exchange.exchange - ERROR - Could not load markets.
 Traceback (most recent call last):
   File "/freqtrade/freqtrade/exchange/exchange.py", line 680, in _api_reload_markets
     await self._api_async.load_markets(reload=reload, params={})
@@ -48,10 +48,13 @@ Traceback (most recent call last):
   File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 333, in load_markets
     result = await self.markets_loading
              ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 298, in load_markets_helper
-    currencies = await self.fetch_currencies()
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 446, in fetch_currencies
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 300, in load_markets_helper
+    markets = await self.fetch_markets(params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 530, in fetch_markets
+    promises = await asyncio.gather(*rawPromises)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 780, in fetch_spot_markets
     response = await self.publicPostInfo(self.extend(request, params))
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 995, in request
@@ -148,7 +151,7 @@ Traceback (most recent call last):
   File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 530, in fetch_markets
     promises = await asyncio.gather(*rawPromises)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 681, in fetch_swap_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 780, in fetch_spot_markets
     response = await self.publicPostInfo(self.extend(request, params))
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 995, in request
@@ -239,4 +242,4 @@ Traceback (most recent call last):
         f"Error in reload_markets due to {e.__class__.__name__}. Message: {e}"
     ) from e
 freqtrade.exceptions.TemporaryError: Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST https://api.hyperliquid.xyz/info 429 Too Many Requests null
-2026-03-12 12:26:54,761 - freqtrade - ERROR - Markets were not loaded.
+2026-03-12 21:25:53,236 - freqtrade - ERROR - Markets were not loaded.
