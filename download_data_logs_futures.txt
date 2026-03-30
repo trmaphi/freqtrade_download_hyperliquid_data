@@ -1,22 +1,22 @@
-2026-03-22 15:17:33,793 - freqtrade - INFO - freqtrade 2026.2
-2026-03-22 15:17:34,200 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
-2026-03-22 15:17:35,232 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/user_data/config.json ...
-2026-03-22 15:17:35,233 - freqtrade.configuration.environment_vars - INFO - Loading variable 'FREQTRADE__EXCHANGE__CCXT_ASYNC_CONFIG__httpProxy'
-2026-03-22 15:17:35,233 - freqtrade.configuration.environment_vars - INFO - Key parts: ['EXCHANGE', 'CCXT_ASYNC_CONFIG', 'httpProxy']
-2026-03-22 15:17:35,235 - freqtrade.loggers - INFO - Enabling colorized output.
-2026-03-22 15:17:35,235 - freqtrade.loggers - INFO - Logfile configured
-2026-03-22 15:17:35,236 - freqtrade.loggers - INFO - Verbosity set to 0
-2026-03-22 15:17:35,236 - freqtrade.configuration.configuration - INFO - Using exchange hyperliquid
-2026-03-22 15:17:35,313 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
-2026-03-22 15:17:35,314 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/hyperliquid ...
-2026-03-22 15:17:35,314 - freqtrade.configuration.configuration - INFO - Using pairs ['.*']
-2026-03-22 15:17:35,315 - freqtrade.configuration.configuration - INFO - timeframes --timeframes: ['1m', '3m', '5m', '15m', '30m', '1h', '2h', '4h', '8h', '12h', '1d', '3d', '1w', '1M']
-2026-03-22 15:17:35,315 - freqtrade.configuration.configuration - INFO - Detected --new-pairs-days: 18
-2026-03-22 15:17:35,316 - freqtrade.configuration.configuration - INFO - Detected --trading-mode: futures
-2026-03-22 15:17:35,317 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
-2026-03-22 15:17:35,321 - freqtrade.exchange.check_exchange - INFO - Exchange "hyperliquid" is officially supported by the Freqtrade development team.
-2026-03-22 15:17:35,321 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
-2026-03-22 15:17:35,653 - freqtrade.exchange.exchange - INFO - Overriding exchange._ft_has with config params, result: {'stoploss_on_exchange': True, 'stop_price_param': 'stopLossPrice', 
+2026-03-30 18:38:34,201 - freqtrade - INFO - freqtrade 2026.3
+2026-03-30 18:38:34,575 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-03-30 18:38:35,575 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/user_data/config.json ...
+2026-03-30 18:38:35,576 - freqtrade.configuration.environment_vars - INFO - Loading variable 'FREQTRADE__EXCHANGE__CCXT_ASYNC_CONFIG__httpProxy'
+2026-03-30 18:38:35,576 - freqtrade.configuration.environment_vars - INFO - Key parts: ['EXCHANGE', 'CCXT_ASYNC_CONFIG', 'httpProxy']
+2026-03-30 18:38:35,578 - freqtrade.loggers - INFO - Enabling colorized output.
+2026-03-30 18:38:35,578 - freqtrade.loggers - INFO - Logfile configured
+2026-03-30 18:38:35,579 - freqtrade.loggers - INFO - Verbosity set to 0
+2026-03-30 18:38:35,579 - freqtrade.configuration.configuration - INFO - Using exchange hyperliquid
+2026-03-30 18:38:35,650 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2026-03-30 18:38:35,650 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/hyperliquid ...
+2026-03-30 18:38:35,651 - freqtrade.configuration.configuration - INFO - Using pairs ['.*']
+2026-03-30 18:38:35,651 - freqtrade.configuration.configuration - INFO - timeframes --timeframes: ['1m', '3m', '5m', '15m', '30m', '1h', '2h', '4h', '8h', '12h', '1d', '3d', '1w', '1M']
+2026-03-30 18:38:35,652 - freqtrade.configuration.configuration - INFO - Detected --new-pairs-days: 18
+2026-03-30 18:38:35,652 - freqtrade.configuration.configuration - INFO - Detected --trading-mode: futures
+2026-03-30 18:38:35,653 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2026-03-30 18:38:35,657 - freqtrade.exchange.check_exchange - INFO - Exchange "hyperliquid" is officially supported by the Freqtrade development team.
+2026-03-30 18:38:35,657 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-03-30 18:38:35,968 - freqtrade.exchange.exchange - INFO - Overriding exchange._ft_has with config params, result: {'stoploss_on_exchange': True, 'stop_price_param': 'stopLossPrice', 
 'stop_price_prop': 'stopPrice', 'stoploss_order_types': {'limit': 'limit'}, 'stoploss_blocks_assets': False, 'stoploss_query_requires_stop_flag': False, 'order_time_in_force': ['GTC'], 'ohlcv_params':
 {}, 'ohlcv_has_history': True, 'ohlcv_partial_candle': True, 'ohlcv_require_since': False, 'download_data_parallel_quick': False, 'always_require_api_keys': False, 'ohlcv_volume_currency': 'base', 
 'tickers_have_quoteVolume': True, 'tickers_have_percentage': True, 'tickers_have_bid_ask': False, 'tickers_have_price': True, 'trades_limit': 1000, 'trades_pagination': 'time', 
@@ -24,55 +24,55 @@
 '1h', 'funding_fee_timeframe': '1h', 'ccxt_futures_name': 'swap', 'needs_trading_fees': False, 'order_props_in_contracts': ['amount', 'filled', 'remaining'], 'fetch_orders_limit_minutes': None, 
 'marketOrderRequiresPrice': True, 'exchange_has_overrides': {'fetchTrades': False}, 'proxy_coin_mapping': {}, 'ws_enabled': True, 'has_delisting': False, 'funding_fee_candle_limit': 500, 
 'uses_leverage_tiers': False}
-2026-03-22 15:17:35,654 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
-2026-03-22 15:17:35,655 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.39
-2026-03-22 15:17:35,655 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'enableRateLimit': True}
-2026-03-22 15:17:35,659 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'enableRateLimit': True, 'httpProxy': ''}
-2026-03-22 15:17:35,663 - freqtrade.exchange.exchange - INFO - Using Exchange "Hyperliquid"
-2026-03-22 15:17:35,663 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Hyperliquid'...
-2026-03-22 15:17:35,664 - freqtrade.exchange.exchange - INFO - Markets were not loaded. Loading them now..
-2026-03-22 15:17:39,293 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
+2026-03-30 18:38:35,969 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2026-03-30 18:38:35,969 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.44
+2026-03-30 18:38:35,970 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'enableRateLimit': True}
+2026-03-30 18:38:35,974 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'enableRateLimit': True, 'httpProxy': ''}
+2026-03-30 18:38:35,978 - freqtrade.exchange.exchange - INFO - Using Exchange "Hyperliquid"
+2026-03-30 18:38:35,978 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Hyperliquid'...
+2026-03-30 18:38:35,978 - freqtrade.exchange.exchange - INFO - Markets were not loaded. Loading them now..
+2026-03-30 18:38:39,749 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info 429 Too Many Requests null". Retrying still for 3 times.
-2026-03-22 15:17:41,857 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
+2026-03-30 18:38:44,935 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info 429 Too Many Requests null". Retrying still for 2 times.
-2026-03-22 15:17:44,856 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
+2026-03-30 18:38:49,573 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info 429 Too Many Requests null". Retrying still for 1 times.
-2026-03-22 15:17:52,978 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
+2026-03-30 18:38:53,715 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST 
 https://api.hyperliquid.xyz/info 429 Too Many Requests null". Giving up.
-2026-03-22 15:17:52,979 - freqtrade.exchange.exchange - ERROR - Could not load markets.
+2026-03-30 18:38:53,716 - freqtrade.exchange.exchange - ERROR - Could not load markets.
 Traceback (most recent call last):
   File "/freqtrade/freqtrade/exchange/exchange.py", line 680, in _api_reload_markets
     await self._api_async.load_markets(reload=reload, params={})
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 341, in load_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 365, in load_markets
     raise e
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 333, in load_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 357, in load_markets
     result = await self.markets_loading
              ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 300, in load_markets_helper
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 324, in load_markets_helper
     markets = await self.fetch_markets(params)
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 530, in fetch_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 531, in fetch_markets
     promises = await asyncio.gather(*rawPromises)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 546, in fetch_hip3_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 547, in fetch_hip3_markets
     fetchDexes = await self.publicPostInfo({
                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
         'type': 'perpDexs',
         ^^^^^^^^^^^^^^^^^^^
     })
     ^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 995, in request
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1022, in request
     return await self.fetch2(path, api, method, params, headers, body, config)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 989, in fetch2
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1016, in fetch2
     raise e
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 979, in fetch2
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1006, in fetch2
     return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 264, in fetch
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in fetch
     self.handle_http_status_code(http_status_code, http_status_text, url, method, http_response)
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/base/exchange.py", line 1916, in handle_http_status_code
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/base/exchange.py", line 1989, in handle_http_status_code
     raise ErrorClass(self.id + ' ' + method + ' ' + url + ' ' + codeAsString + ' ' + reason + ' ' + body)
 ccxt.base.errors.RateLimitExceeded: hyperliquid POST https://api.hyperliquid.xyz/info 429 Too Many Requests null
 
@@ -97,32 +97,36 @@ During handling of the above exception, another exception occurred:
 Traceback (most recent call last):
   File "/freqtrade/freqtrade/exchange/exchange.py", line 680, in _api_reload_markets
     await self._api_async.load_markets(reload=reload, params={})
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 341, in load_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 365, in load_markets
     raise e
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 333, in load_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 357, in load_markets
     result = await self.markets_loading
              ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 300, in load_markets_helper
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 324, in load_markets_helper
     markets = await self.fetch_markets(params)
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 530, in fetch_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 531, in fetch_markets
     promises = await asyncio.gather(*rawPromises)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 780, in fetch_spot_markets
-    response = await self.publicPostInfo(self.extend(request, params))
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 995, in request
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 547, in fetch_hip3_markets
+    fetchDexes = await self.publicPostInfo({
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'type': 'perpDexs',
+        ^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1022, in request
     return await self.fetch2(path, api, method, params, headers, body, config)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 989, in fetch2
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1016, in fetch2
     raise e
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 979, in fetch2
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1006, in fetch2
     return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 264, in fetch
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in fetch
     self.handle_http_status_code(http_status_code, http_status_text, url, method, http_response)
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/base/exchange.py", line 1916, in handle_http_status_code
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/base/exchange.py", line 1989, in handle_http_status_code
     raise ErrorClass(self.id + ' ' + method + ' ' + url + ' ' + codeAsString + ' ' + reason + ' ' + body)
 ccxt.base.errors.RateLimitExceeded: hyperliquid POST https://api.hyperliquid.xyz/info 429 Too Many Requests null
 
@@ -147,29 +151,36 @@ During handling of the above exception, another exception occurred:
 Traceback (most recent call last):
   File "/freqtrade/freqtrade/exchange/exchange.py", line 680, in _api_reload_markets
     await self._api_async.load_markets(reload=reload, params={})
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 341, in load_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 365, in load_markets
     raise e
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 333, in load_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 357, in load_markets
     result = await self.markets_loading
              ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 298, in load_markets_helper
-    currencies = await self.fetch_currencies()
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 446, in fetch_currencies
-    response = await self.publicPostInfo(self.extend(request, params))
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 995, in request
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 324, in load_markets_helper
+    markets = await self.fetch_markets(params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 531, in fetch_markets
+    promises = await asyncio.gather(*rawPromises)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 547, in fetch_hip3_markets
+    fetchDexes = await self.publicPostInfo({
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'type': 'perpDexs',
+        ^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1022, in request
     return await self.fetch2(path, api, method, params, headers, body, config)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 989, in fetch2
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1016, in fetch2
     raise e
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 979, in fetch2
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1006, in fetch2
     return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 264, in fetch
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in fetch
     self.handle_http_status_code(http_status_code, http_status_text, url, method, http_response)
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/base/exchange.py", line 1916, in handle_http_status_code
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/base/exchange.py", line 1989, in handle_http_status_code
     raise ErrorClass(self.id + ' ' + method + ' ' + url + ' ' + codeAsString + ' ' + reason + ' ' + body)
 ccxt.base.errors.RateLimitExceeded: hyperliquid POST https://api.hyperliquid.xyz/info 429 Too Many Requests null
 
@@ -194,29 +205,32 @@ During handling of the above exception, another exception occurred:
 Traceback (most recent call last):
   File "/freqtrade/freqtrade/exchange/exchange.py", line 680, in _api_reload_markets
     await self._api_async.load_markets(reload=reload, params={})
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 341, in load_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 365, in load_markets
     raise e
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 333, in load_markets
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 357, in load_markets
     result = await self.markets_loading
              ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 298, in load_markets_helper
-    currencies = await self.fetch_currencies()
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 446, in fetch_currencies
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 324, in load_markets_helper
+    markets = await self.fetch_markets(params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 531, in fetch_markets
+    promises = await asyncio.gather(*rawPromises)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/hyperliquid.py", line 683, in fetch_swap_markets
     response = await self.publicPostInfo(self.extend(request, params))
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 995, in request
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1022, in request
     return await self.fetch2(path, api, method, params, headers, body, config)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 989, in fetch2
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1016, in fetch2
     raise e
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 979, in fetch2
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 1006, in fetch2
     return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 264, in fetch
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in fetch
     self.handle_http_status_code(http_status_code, http_status_text, url, method, http_response)
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/base/exchange.py", line 1916, in handle_http_status_code
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/base/exchange.py", line 1989, in handle_http_status_code
     raise ErrorClass(self.id + ' ' + method + ' ' + url + ' ' + codeAsString + ' ' + reason + ' ' + body)
 ccxt.base.errors.RateLimitExceeded: hyperliquid POST https://api.hyperliquid.xyz/info 429 Too Many Requests null
 
@@ -246,4 +260,4 @@ Traceback (most recent call last):
         f"Error in reload_markets due to {e.__class__.__name__}. Message: {e}"
     ) from e
 freqtrade.exceptions.TemporaryError: Error in reload_markets due to RateLimitExceeded. Message: hyperliquid POST https://api.hyperliquid.xyz/info 429 Too Many Requests null
-2026-03-22 15:17:52,995 - freqtrade - ERROR - Markets were not loaded.
+2026-03-30 18:38:53,732 - freqtrade - ERROR - Markets were not loaded.
